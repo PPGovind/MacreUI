@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Login Suite">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+    </listeners>
+    <test name="Login Test">
+        <classes>
+          <!--  <class name="com.example.tests.assetCreationTest"/>
+            <class name="com.example.tests.MasterCreationTest"/>-->
+            <class name="com.example.tests.transformationCreationTest"/>
+            <class name="com.example.tests.transformationOutboundTest"/>
+
+        </classes>
+    </test>
+</suite>

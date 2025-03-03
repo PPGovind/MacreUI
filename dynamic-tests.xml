@@ -1,0 +1,10 @@
+<tests>
+    <test>
+        <class>com.example.tests.MasterCreationTest</class>
+        <method>masterCreationTest</method>
+    </test>
+    <test>
+        <class>com.example.tests.transformationCreationTest</class>
+        <method>transCreations</method>
+    </test>
+</tests>
